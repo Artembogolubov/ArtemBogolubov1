@@ -1,0 +1,8 @@
+import random
+my=["ты лучший","красавчик","молодец"]
+myy=["а ты хорош", "наш человек","ты Босх!"]
+name=input("назови свое имя")
+if name=="Валера":
+    print(random.choice(my))
+else:
+    print(random.choice(myy))
