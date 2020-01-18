@@ -1,5 +1,5 @@
 # ArtemBogolubov1
 import math
-print("введи число от 1 до 10")
+print("введи любое положительно число")
 x = int(input())
 print(math.sqrt(x))
