@@ -3,7 +3,7 @@ print("введи 2 числа от 1 до 10")
 x = int(input())
 y = int(input())
 if x >= y:
-   print(random.randint(x,y))
+   print(random.randint(y,x))
    
 if y >= x:
-   print(random.randint(y,x))
+   print(random.randint(x,y))
