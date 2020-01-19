@@ -1,0 +1,23 @@
+# ArtemBogolubov1
+import mcpi.minecraft as minecraft
+mc = minecraft.Minecraft.create()
+import time
+def createBridge():
+    pos = mc.player.getTilePos()
+    mc.setBlock(pos.x+7,pos.y+0,pos.z+7,7)
+my = [1,2,3,4,5,6,7,8,9,10]
+print("введи свое имя")
+name = input()
+if name =="Артем":
+    my = [1,2,3,4,5,6,7,8,9,10]
+    my.reverse()
+    for item in my:
+        print(item)
+        time.sleep(0.1)
+    print("привет "+name)
+    print("вы администратор сервера")
+    
+    while True:
+        text = input()
+        if text =="мост":
+            createBridge()
